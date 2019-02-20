@@ -9,7 +9,6 @@ namespace _2002Compare
     class Car : IComparable<Car>
     {
 
-        public static int hello;
         public string Model { get; private set; }
         public int Year { get; private set; }
         public int HorsePower { get; private set; }
